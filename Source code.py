@@ -16,7 +16,7 @@ from pathlib import Path
 import pandas as pd
 
 # import dataset  
-df = pd.read_csv("https://storage.googleapis.com/dqlab-dataset/customer_segments.txt", sep="\t")  
+df = pd.read_csv("customer_segments.csv", sep="\t")  
   
 # menampilkan data  
 print(df.head())
